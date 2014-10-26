@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{e9b2b05a-a9e3-4f4f-ad96-dba47b30adb1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Neuron.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="NeuralNet.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Connection.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="BackPropagationLearning.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="TrainingAlgorithm.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Connection.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="NeuralNet.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Neuron.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="BackPropagationLearning.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="TrainingAlgorithm.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
